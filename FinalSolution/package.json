@@ -1,0 +1,31 @@
+{
+  "name": "package.json",
+  "version": "1.0.0",
+  "description": "For a news bot",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/michhar/Bot-Framework-HOL.git"
+  },
+  "keywords": [
+    "news",
+    "bot"
+  ],
+  "author": "Micheleen Harris",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/michhar/Bot-Framework-HOL/issues"
+  },
+  "homepage": "https://github.com/michhar/Bot-Framework-HOL#readme",
+  "dependencies": {
+    "botbuilder": "^3.6.0",
+    "nodemailer": "^3.1.4",
+    "nodemailer-wellknown": "^0.2.2",
+    "request-promise": "^4.1.1",
+    "restify": "^4.3.0"
+  }
+}
